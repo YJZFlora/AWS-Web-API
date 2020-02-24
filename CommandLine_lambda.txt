@@ -1,0 +1,1 @@
+curl -d '"http://courses.cse.tamu.edu/chiache/csce678/s20/slides/intro.pdf"' -H "Content-Type: application/string" -X POST https://05pt77a6b2.execute-api.us-west-2.amazonaws.com/FloraStage
