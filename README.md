@@ -17,7 +17,7 @@ AWS
 
 in a terminal window, paste the following command line and run.
 
-    curl -d '"[http://courses.cse.tamu.edu/chiache/csce678/s20/slides/intro.pdf](http://courses.cse.tamu.edu/chiache/csce678/s20/slides/intro.pdf)"' -H "Content-Type: application/string" -X POST [https://05pt77a6b2.execute-api.us-west-2.amazonaws.com/FloraStage](https://05pt77a6b2.execute-api.us-west-2.amazonaws.com/FloraStage)
+    curl -d '"http://courses.cse.tamu.edu/chiache/csce678/s20/slides/intro.pdf"' -H "Content-Type: application/string" -X POST (https://05pt77a6b2.execute-api.us-west-2.amazonaws.com/FloraStage)
 
 - **PLEASE** replace `"http://courses.cse.tamu.edu/chiache/csce678/s20/slides/intro.pdf"` to a **String** of the webpage URL you want to download.
 
