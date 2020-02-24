@@ -26,11 +26,3 @@ in a terminal window, paste the following command line and run.
 ### s3 bucket name
 
 yijunzhang678
-
-### URL of AWS Lambda API Gateway
-
-[https://05pt77a6b2.execute-api.us-west-2.amazonaws.com/FloraStage](https://05pt77a6b2.execute-api.us-west-2.amazonaws.com/FloraStage)
-
-### Public DNS of EC2 instance
-
-[ec2-18-236-68-24.us-west-2.compute.amazonaws.com](http://ec2-18-236-68-24.us-west-2.compute.amazonaws.com/)
