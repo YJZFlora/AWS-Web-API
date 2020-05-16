@@ -7,17 +7,11 @@
 
 ## Techniques
 
-AWS Lambda Function, AWS API Gateway, AWS S3, AWS EC2, Python
+AWS Lambda Function, AWS API Gateway, AWS S3, AWS EC2, AWS SQS, Python
 
 ## How to achieve
 
-1. Query -> API -> Lambda Function
-![Image of api](https://github.com/YJZFlora/AWS-Web-API/blob/master/api_architecture.png)
-
-2. EC2 monitoring
-
-
-## Demo
+![Image of architecture](https://github.com/YJZFlora/AWS-Web-API/blob/master/Architecture.png)
 
 ## Problem and solution
 
@@ -25,25 +19,16 @@ AWS Lambda Function, AWS API Gateway, AWS S3, AWS EC2, Python
 
 **Solution** Enable CORS in AWS API Gateway. 'Access-Control-Allow-Headers' should use the ```*``` wildcard.
 
+**Problem** Running instance in EC2 could charge fees.
+
+**Solution** Shut down EC2 when unneeded.
+
 ## Future work
 
 * Make a front-end for user to input query.
-
 
 ## References
 
 https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-getting-started-with-rest-apis.html
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors/CORSMissingAllowOrigin
-
-
-如何写Readme的内容：
-目的：描述一下为什么做这个项目？好玩（interest，passion）？学习某个知识点？
-‍‌‍‍‌‍‌‌‍‍‍‍‍‌‍‌‌‌‍keyword：涉及的技术知识点
-描述一下整个项目的架构
-描述一下有哪些功能
-demo video
-遇到的问题，怎么解决的
-未解决的问题future work
-参考资料链接
-license
