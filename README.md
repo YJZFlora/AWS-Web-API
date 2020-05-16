@@ -15,13 +15,13 @@ AWS Lambda Function, AWS API Gateway, AWS S3, AWS EC2, AWS SQS, Python
 
 ## Problem and solution
 
-**Problem: ** JSON Object cannot be sent to API Gateway. " CORS header 'Access-Control-Allow-Origin' missing" error.
+**Problem:**  JSON Object cannot be sent to API Gateway. " CORS header 'Access-Control-Allow-Origin' missing" error.
 
-**Solution: ** Enable CORS in AWS API Gateway. 'Access-Control-Allow-Headers' should use the ```*``` wildcard.
+**Solution:**  Enable CORS in AWS API Gateway. 'Access-Control-Allow-Headers' should use the ```*``` wildcard.
 
-**Problem: ** Running instance in EC2 could charge fees.
+**Problem:**  Running instance in EC2 could charge fees.
 
-**Solution: \** Shut down EC2 when unneeded.
+**Solution:**  Shut down EC2 when unneeded.
 
 ## Future work
 
