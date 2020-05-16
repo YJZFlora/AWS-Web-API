@@ -12,7 +12,9 @@ AWS Lambda Function, AWS API Gateway, AWS S3, AWS EC2, Python
 ## How to achieve
 
 1. Query -> API -> Lambda Function
-![Image of api](https://github.com/YJZFlora/AWS-Web-API/blob/master/api_architecture.png | width=50)
+![Image of api](https://github.com/YJZFlora/AWS-Web-API/blob/master/api_architecture.png)
+
+2. EC2 monitoring
 
 
 ## Demo

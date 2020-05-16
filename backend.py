@@ -4,13 +4,13 @@ import botocore
 import hashlib
 client = boto3.client(
     's3',
-    aws_access_key_id = "AKIAWTHXAOKAUNXDEG5Y",
-    aws_secret_access_key = "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"
+    aws_access_key_id = "*************",
+    aws_secret_access_key = "*************"
 )
 
-BUCKET_NAME = 'yijunzhang678'
+BUCKET_NAME = '***************'
 
-flora_session = boto3.Session(region_name='us-west-2',aws_access_key_id = "AKIAWTHXAOKAUNXDEG5Y",aws_secret_access_key = "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",)
+flora_session = boto3.Session(region_name='us-west-2',aws_access_key_id = "***************",aws_secret_access_key = "*******************",)
 sqs = flora_session.resource('sqs')
 queue = sqs.get_queue_by_name(QueueName = 's3event')
 for message in queue.receive_messages():

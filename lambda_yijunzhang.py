@@ -12,7 +12,7 @@ def lambda_handler(event, context):
     response = urllib.request.urlopen(req)
     webContent = response.read()
 
-    bucket_name = 'yijunzhang678'
+    bucket_name = '***************'
     bucket_key = url
     body = webContent
     put_object_into_s3(bucket_name, bucket_key, body)
