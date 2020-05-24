@@ -32,3 +32,5 @@ AWS Lambda Function, AWS API Gateway, AWS S3, AWS EC2, AWS SQS, Python
 https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-getting-started-with-rest-apis.html
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors/CORSMissingAllowOrigin
+
+http://courses.cse.tamu.edu/chiache/csce678/s20/project1.html
